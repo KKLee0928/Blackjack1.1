@@ -1,1 +1,17 @@
 /* styleSheet */
+/*font-family: 'Faster One', cursive;*/
+header {
+	border: 4px double black;
+	height: 100px;
+	width: auto;
+	letter-spacing: 1PX;
+	font-weight: 400;
+	background-color: #888;
+	margin: 0;
+}
+h1 {
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 10px;
+	font-family: 'Faster One', cursive, 'Sans-Serif';
+}
