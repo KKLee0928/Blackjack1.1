@@ -16,10 +16,13 @@ var players = {
 }
 
 var addition = function(hand) {
+    loadChute(1);
+    shuffleChute(2);
     var total = 0;
     for (var i = 0; i < hand.length; i++) {
         switch (hand[i][0]) {
-            case "A":
+            case "A": 
+                    // players.push(11);
                 break;
             case "J":
                 break;
@@ -31,3 +34,7 @@ var addition = function(hand) {
         }
     }
 }
+console.log(players);
+
+//players will console log { house: [], player:[] }
+//which means the hands will go inside the value of the key.

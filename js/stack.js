@@ -9,7 +9,7 @@ function will be placed here*/
 
 // Fill the array with '' packs of cards.
 var chute = [];
-var decks = null;
+var decks = 1;
 
 var cardNumbers = [
     'A','2','3','4','5','6','7','8','9','10','J','Q','K'
@@ -50,5 +50,6 @@ var shuffleChute = function() {
 
 loadChute(1);
 // console.log(chute);
-shuffleChute();
+shuffleChute(2);
 console.log(chute);
+
