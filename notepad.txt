@@ -1,22 +1,27 @@
-/*Stack is for the deck and the array of cards in them. also the shuffle
-function will be placed here*/
-
-//this function will go into the block where the card will be dealt after 'playerBet' = true; 
-//eventHandler will trigger when player takes action.
-// var deck = document.getElementById('decks');
-
-//make object stack => chute
-
-// Fill the array with '' packs of cards.
 var chute = [];
-var decks = null;
+var decks = 6;
 
 var cardNumbers = [
-    'A','2','3','4','5','6','7','8','9','10','J','Q','K'
+    'A',
+    '2',
+    '3',
+    '4',
+    '5',
+    '6',
+    '7',
+    '8',
+    '9',
+    '10',
+    'J',
+    'Q',
+    'K'
 ];
 
 var cardSuits = [
-    'heart','diamond','clover','spade'
+    'heart',
+    'diamond',
+    'clover',
+    'spade'
 ];
 
 var loadChute = function() {
@@ -48,7 +53,7 @@ var shuffleChute = function() {
     }
 }
 
-loadChute(1);
-// console.log(chute);
+loadChute();
+console.log(chute);
 shuffleChute();
 console.log(chute);
